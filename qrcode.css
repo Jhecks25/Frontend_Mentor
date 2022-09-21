@@ -78,13 +78,13 @@ p{
   .main{
     width: 100%;
     margin: 0px;
-    /* height: 500px; */
+    height: 600px;
     }
 
   .white_bacground{
     width: 20%;
     height: 400px;
-    top: 40px;
+    top: 90px;
     border-radius: 15px;
   }
 
