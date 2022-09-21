@@ -5,10 +5,10 @@
 
 .main{
   width: 100%;
-  margin: auto;
+  margin: 0;
   height: 800px;
   background: hsl(212, 45%, 89%);
-  box-shadow: 2px 2px 6px grey;
+  /* box-shadow: 2px 2px 6px grey; */
 }
 
  .white_bacground{
@@ -48,6 +48,7 @@ p{
  @media only screen and (max-width: 375px) {
   .main{
     width: 100%;
+    margin: auto;
 
   }
 
@@ -75,13 +76,13 @@ p{
 
 @media only screen and (min-width: 376px) and (max-width: 1440px) {
   .main{
-    width: 70%;
-    margin: 70px auto 80px;
-    height: 500px;
+    width: 100%;
+    margin: 0px;
+    /* height: 500px; */
     }
 
   .white_bacground{
-    width: 30%;
+    width: 20%;
     height: 400px;
     top: 40px;
     border-radius: 15px;
